@@ -136,18 +136,88 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.bgHome{
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+}
 h2{
     font-size: 4.5em;
     line-height: 1.2em;
     color: #FFBE00;
+    text-shadow: 1px 1px 1px #fff;
+    margin: 20px 0;
+}
+.navBar{
+    width: 50%;
+    margin: 40px auto 0;
+    float: none;
+}
+.redondo{
+    width: 180px;
+    height: 180px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    text-decoration: none;
+}
+.bg_black{
+    background: url(../img/bg.png);
+}
+}
+.redondo:hover{
+    text-decoration: none;
+}
+.redondo span{
+    font-weight: 200;
+    font-size: 1.4em;
+    margin: 50px 0 0 0;
+    display: block;
+    text-decoration: none;
+
+}
+.redondo p{
+    font-weight: 400;
+    font-size: 1.8em;
+    margin: 5px 0 0 0;
+    text-transform: uppercase;
+
+}
+.negro{
+    color: #000;
+}
+.blanco{
+    color: #fff;
+}
+.ama{
+    background: rgba(255, 255, 0, .8);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.ama:hover{
+    background: rgba(255, 255, 0, .5);
+}
+.rojo{
+    background: rgba(255, 0, 0, .8);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.rojo:hover{
+    background: rgba(255, 0, 0, .5);
+}
+#desc{
+    font-size: 1.3em;
+    font-weight: 200;
+    line-height: 30px;
+    color: #bfbbbb;
 }
 section{
         padding: 20px;
 }
 .black{
     color: #929292;
-    min-height: 400px;
-    background: url(../img/bg.png);
 }
 .black h2{
     margin: 0.3em 0;
@@ -242,8 +312,12 @@ textarea {
     margin: 10px 0 10px;
     width: 80%;
 }
+.home{
+    min-height: 510px
+}
 footer{
-    color: #929292
+    color: #929292;
+    min-height: 420px;
 }
 /* ==========================================================================
    Media Queries
