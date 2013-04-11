@@ -135,9 +135,7 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
-    background: url(../img/bg.png);
-}
+
 h2{
     font-size: 4.5em;
     line-height: 1.2em;
@@ -148,7 +146,11 @@ section{
 }
 .black{
     color: #929292;
-     min-height: 750px;
+    min-height: 400px;
+    background: url(../img/bg.png);
+}
+.black h2{
+    margin: 0.3em 0;
 }
 .ligth-bg{
     background: url(../img/light-bg.png)
@@ -165,10 +167,11 @@ section{
 .date{
     display: block;
     padding: 5px;
-    border-top: 1px solid #fff ;
+    margin-bottom: 50px;
 }
  li p{
     display: inline-block;
+    width: 85%;
 }
 ul li{
     list-style: none;
@@ -179,9 +182,10 @@ i{
     display: inline-block;
     vertical-align: top;
     margin: 10px 30px 0px 10px;
+    width: 10%;
 }
 i img {
-    width: 105px
+    width: 100%;
 }
 .gree{
     background: #dedcce;
