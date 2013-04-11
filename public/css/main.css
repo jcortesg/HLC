@@ -148,6 +148,9 @@ h2{
     text-shadow: 1px 1px 1px #fff;
     margin: 20px 0;
 }
+em{
+  color: #eee;
+}
 .navBar{
     width: 50%;
     margin: 40px auto 0;
