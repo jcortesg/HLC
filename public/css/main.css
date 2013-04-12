@@ -152,9 +152,14 @@ em{
   color: #eee;
 }
 .navBar{
-    width: 50%;
+    width: 100%;
     margin: 40px auto 0;
     float: none;
+}
+
+.navBar ul {
+    width: 580px;
+    margin: 0 auto;
 }
 .redondo{
     width: 180px;
@@ -332,6 +337,11 @@ textarea {
 footer{
     color: #929292;
     min-height: 420px;
+}
+.lanza{
+    font-size: 2em ;
+    font-family: 'Playball', cursive;
+    color: #0093de;
 }
 /* ==========================================================================
    Media Queries
