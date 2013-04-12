@@ -279,6 +279,16 @@ input[type=text]{
     width: 80%;
 }
 
+input[type=email]{
+     background: #dedcce;
+    border: 1px solid #252525;
+    padding: 15px 10px;
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 10px;
+    width: 80%;
+
+}
 .yellow {
     background: #ffc956;
     border: none;
